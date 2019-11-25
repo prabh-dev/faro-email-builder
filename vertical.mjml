@@ -1,0 +1,912 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-preview>FARO: Preview text goes here</mj-preview>
+        <mj-breakpoint width="697px" />
+        <mj-attributes>
+            <!-- core palette -->
+            <mj-class name="color__faro-blue" color="#01426a" />
+            <mj-class name="color__faro-blue--bg" background-color="#01426a" />
+            <mj-class name="color__faro-blue--border" border-color="#01426a">
+                <mj-divider border-color="#01426a" />
+            </mj-class>
+            <mj-class name="color__white" color="#fff" />
+            <mj-class name="color__white--bg" background-color="#fff" />
+            <mj-class name="color__white--border" border-color="#fff">
+                <mj-divider border-color="#fff" />
+            </mj-class>
+            <mj-class name="color__anthracite-gray" color="#2f3234" />
+            <mj-class name="color__anthracite-gray--bg" background-color="#2f3234" />
+            <mj-class name="color__anthracite-gray--border" border-color="#2f3234">
+                <mj-divider border-color="#2f3234" />
+            </mj-class>
+            <mj-class name="color__metal-gray" color="#52595d" />
+            <mj-class name="color__metal-gray--bg" background-color="#52595d" />
+            <mj-class name="color__metal-gray--border" border-color="#52595d">
+                <mj-divider border-color="#52595d" />
+            </mj-class>
+            <mj-class name="color__light-metal-gray" color="#8d9295" />
+            <mj-class name="color__light-metal-gray--bg" background-color="#8d9295" />
+            <mj-class name="color__light-metal-gray--border" border-color="#8d9295">
+                <mj-divider border-color="#8d9295" />
+            </mj-class>
+            <mj-class name="color__white-gray" color="#e2e2e2" />
+            <mj-class name="color__white-gray--bg" background-color="#e2e2e2" />
+            <mj-class name="color__white-gray--border" border-color="#e2e2e2">
+                <mj-divider border-color="#e2e2e2" />
+            </mj-class>
+
+            <!-- accent palette -->
+            <mj-class name="color__zenith-blue" color="#009cde" />
+            <mj-class name="color__zenith-blue--bg" background-color="#009cde" />
+            <mj-class name="color__zenith-blue--border" border-color="#009cde">
+                <mj-divider border-color="#009cde" />
+            </mj-class>
+            <mj-class name="color__sunny-orange" color="#eaaa00" />
+            <mj-class name="color__sunny-orange--bg" background-color="#eaaa00" />
+            <mj-class name="color__sunny-orange--border" border-color="#eaaa00">
+                <mj-divider border-color="#eaaa00" />
+            </mj-class>
+
+            <!-- vertical palette -->
+            <mj-class name="color__carbon-black" color="#000" />
+            <mj-class name="color__carbon-black--bg" background-color="#000" />
+            <mj-class name="color__carbon-black--border" border-color="#000">
+                <mj-divider border-color="#000" />
+            </mj-class>
+            <mj-class name="color__on-site-orange" color="#ff6a13" />
+            <mj-class name="color__on-site-orange--bg" background-color="#ff6a13" />
+            <mj-class name="color__on-site-orange--border" border-color="#ff6a13">
+                <mj-divider border-color="#ff6a13" />
+            </mj-class>
+            <mj-class name="color__forest-green" color="#4c8c2b" />
+            <mj-class name="color__forest-green--bg" background-color="#4c8c2b" />
+            <mj-class name="color__forest-green--border" border-color="#4c8c2b">
+                <mj-divider border-color="#4c8c2b" />
+            </mj-class>
+            <mj-class name="color__pursuit-blue" color="#0070c8" />
+            <mj-class name="color__pursuit-blue--bg" background-color="#0070c8" />
+            <mj-class name="color__pursuit-blue--border" border-color="#0070c8">
+                <mj-divider border-color="#0070c8" />
+            </mj-class>
+            <mj-class name="color__beaming-red" color="#d50037" />
+            <mj-class name="color__beaming-red--bg" background-color="#d50037" />
+            <mj-class name="color__beaming-red--border" border-color="#d50037">
+                <mj-divider border-color="#d50037" />
+            </mj-class>
+
+            <!-- Vertical Tag Styles -->
+            <mj-class name="text__vertical-primary"
+                      color="#000000"
+                      font-size="14px"
+                      line-height="14px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      text-transform="uppercase"
+                      align="right"
+                      padding="0px 10px 5px 0px" />
+            <mj-class name="text__vertical-secondary"
+                      color="#000000"
+                      font-size="13px"
+                      line-height="13px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="right"
+                      padding="0px 10px 0px 0px" />
+
+            <!-- Call to Action Styles -->
+            <mj-class name="text__cta-primary"
+                      color="#000000"
+                      font-size="32px"
+                      line-height="32px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="10px 20px" />
+            <mj-class name="text__cta-secondary"
+                      color="#000000"
+                      font-size="23px"
+                      line-height="23px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
+            <mj-class name="line__cta-primary"
+                      border-color="#000000"
+                      border-width="5px"
+                      padding="0px 20px 0px 20px"
+                      width="85px" />
+
+            <!-- Secondary Headline Styles-->
+            <mj-class name="text__headline-secondary"
+                      color="#000000"
+                      font-size="22px"
+                      line-height="22px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px" />
+            <mj-class name="line__headline-secondary"
+                      border-color="#000000"
+                      border-width="2px"
+                      align="left"
+                      padding="5px 0px" />
+
+            <!-- Sub Headline Styles -->
+            <mj-class name="text__headline-sub"
+                      color="#2f3234"
+                      font-size="18px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 2px 0px" />
+
+            <!-- Normal/Inline Text Styles -->
+            <mj-class name="text__normal-heading"
+                      color="#000000"
+                      font-size="14px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="0px 0px 2px 0px" />
+            <mj-class name="text__normal"
+                      color="#000000"
+                      font-size="14px"
+                      line-height="20px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="0px 0px 15px 0px" />
+            <mj-class name="text__note"
+                      color="#2f3234"
+                      font-size="12px"
+                      line-height="16px"
+                      font-weight="normal"
+                      font-style="italic"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 15px 0px" />
+            <mj-class name="line__normal"
+                      border-color="#000000"
+                      border-width="1px"
+                      padding="5px 0px" />
+
+            <!-- Image Styles -->
+            <mj-class name="image__bordered"
+                      border="2px #000000 solid" />
+
+            <!-- Button Styles -->
+            <mj-class name="button__primary"
+                      border-radius="0px"
+                      font-size="19px"
+                      line-height="25px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="15px 40px" />
+
+            <!-- Template-Specific Styles -->
+            <mj-class name="block__grey--faded"
+                      background-color="#fff"
+                      background-url="https://img.en25.com/EloquaImages/clients/Faro/%7Bb919870b-d51a-45e7-b88c-e12e9ee872f7%7D_bg-triangles-grey-faded.jpg"
+                      border-top="1px #01426a solid"
+                      border-bottom="1px #01426a solid"
+                      vertical-align="middle" />
+        </mj-attributes>
+        <mj-style>
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full { padding-left:20px !important; padding-right:20px !important; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
+            sup { vertical-align: baseline; position: relative; top: -4px; }
+            @media screen and (min-width: 697px) {
+                .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
+            }
+            @media only screen and (max-width:697px) {
+                table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
+                td.full-width-mobile { width: auto !important; }
+                .divider-left { padding-left:20px !important; padding-right:20px !important; }
+            }
+            @media only screen and (max-width: 479px) {
+                .emailfooter, .emailheader { width: 100% !important; }
+                .unscribe { padding-top:0 !important;padding-bottom:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                .mblnavtop { padding-top:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                td.hl2 { text-align:center !important;padding-top:10px !important; }
+                span.hl { font-size:18px !important;line-height: 20px !important; }
+                span.hl2 { font-size:16px !important;line-height: 18px !important; }
+                .hide { display:none; }
+                span.rmbtn { color:#ffffff !important; }
+                a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
+                .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+        </mj-style>
+        <!--[if gte mso 9]>
+        <style>
+            div.list { Margin: 0 0 0 -20px; }
+        </style>
+        <![endif]-->
+    </mj-head>
+    <mj-body width="680px">
+        <mj-wrapper padding="0px">
+            <mj-section padding="10px 10px 0px 10px" css-class="vertical-header">
+                <mj-group width="100%">
+                    <mj-column width="20%" padding="0px" vertical-align="middle">
+                        <mj-image padding="0px"
+                                  align="left"
+                                  src="https://img.en25.com/EloquaImages/clients/Faro/%7B8da5cab2-67d6-486c-a433-b38aa77c18e9%7D_logo-blue.jpg"
+                                  alt="FARO Logo"
+                                  href="https://www.faro.com/" />
+                    </mj-column>
+                    <mj-column width="74%" padding="0px" vertical-align="middle">
+                        <mj-text mj-class="text__vertical-primary color__faro-blue">
+                            3D Design
+                        </mj-text>
+                        <mj-text mj-class="text__vertical-secondary color__carbon-black">
+                            Digital Creation
+                        </mj-text>
+                    </mj-column>
+                    <mj-column width="6%" padding="0px" vertical-align="middle">
+                        <mj-image padding="0px"
+                                  align="right"
+                                  src="https://img.en25.com/EloquaImages/clients/Faro/%7B31096aae-9c97-4996-bd9c-5ab618c89b26%7D_3d-design.jpg"
+                                  alt="3D Design" />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
+                    padding="0px"
+                    background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B81a00079-a1d4-4284-9b09-ddfbd4e9d649%7D_cta-triangles-grey.jpg"
+                    background-size="680px"
+                    background-repeat="no-repeat">
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="20px" padding="0px">
+                    <mj-text font-size="1px" line-height="1px" padding="0px">
+                        <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="20px" height="1px" style="width: 20px; height: 1px;" />
+                    </mj-text>
+                </mj-column>
+                <mj-column width="85px" padding="0px">
+                    <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
+                                css-class="divider-left" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <mj-text mj-class="text__cta-primary color__faro-blue">
+                        Dive Deeper Into Our Solutions
+                    </mj-text>
+
+                    <mj-text mj-class="text__cta-secondary color__metal-gray">
+                        Subheadline Here
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             align="center">
+                        Secondary Headline
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="center">
+                <mj-column width="95px" padding="0px">
+                    <mj-divider mj-class="line__headline-secondary color__forest-green--border"
+                                width="95px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="40%" padding="0px">
+                    <mj-image mj-class="image__bordered color__zenith-blue--border"
+                              padding="5px 0px 20px 0px"
+                              src="http://placeimg.com/640/360/any"
+                              align="center"
+                              alt="Image description" />
+                </mj-column>
+                <mj-column width="4%" padding="0px">
+                    <mj-spacer height="1px" />
+                </mj-column>
+                <mj-column width="56%" padding="0px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Product Name
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column width="48%" padding="0px 20px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Inline Headline
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="4%" padding="0px"></mj-column>
+                <mj-column width="48%" padding="0px 20px">
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Inline Headline
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="15px 0px" mj-class="block__grey--faded">
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px">
+                    <mj-image width="52px"
+                              height="36px"
+                              padding="0px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg"
+                              alt="Capture in 3D" />
+                </mj-column>
+                <mj-column width="90%" padding="0px">
+                    <mj-text padding="6px 20px 20px 20px"
+                             mj-class="text__headline-secondary color__faro-blue">
+                        Secondary Headline
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column padding="0px">
+                    <mj-text mj-class="text__normal color__faro-blue"
+                             padding-left="20px"
+                             padding-right="20px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__faro-blue"
+                             padding-left="20px"
+                             padding-right="20px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </mj-text>
+
+                    <mj-button mj-class="button__primary color__forest-green--bg color__white"
+                               padding="0px 20px"
+                               href="#"
+                               target="_blank">
+                        <span style="letter-spacing: normal;">
+                            Call Out Button
+                        </span>
+                    </mj-button>
+
+                    <mj-spacer height="5px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="0px 0px 5px 0px">
+            <mj-section padding="0px">
+                <mj-column mj-class="color__faro-blue--bg" width="10%" padding="0px 0px 0px 20px">
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px"
+                              align="left"
+                              src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reliable.jpg"
+                              alt="Reliable" />
+                </mj-column>
+                <mj-column mj-class="color__white--bg" width="90%" padding="0px">
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             padding="12px 20px 5px 20px">
+                        Secondary Headline
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="0px 10px">
+            <mj-section padding="0px">
+                <mj-column width="40%" padding="0px 10px">
+                    <mj-image mj-class="image__bordered"
+                              padding="5px 0px 20px 0px"
+                              src="http://placeimg.com/640/360/any"
+                              alt="Image description" />
+                </mj-column>
+                <mj-column width="60%" padding="0px 10px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Product Name
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="0px 10px">
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px" vertical-align="top">
+                    <mj-image width="48px"
+                              padding="0px 0px 0px 6px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B9b1c80c8-96ab-4674-a3be-aaf39a256d51%7D_advance-performance.jpg"
+                              alt="Advance Performance" />
+                </mj-column>
+                <mj-column width="90%"
+                           padding="10px 10px 0px 10px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Product Name
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px" vertical-align="top">
+                    <mj-image width="48px"
+                              padding="0px 0px 0px 6px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B66d4ae23-75fd-4fb7-85a0-d0dad5ca95ac%7D_efficient.jpg"
+                              alt="Efficient" />
+                </mj-column>
+                <mj-column width="90%" padding="10px 10px 0px 10px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Product Name
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px" vertical-align="top">
+                    <mj-image width="48px"
+                              padding="0px 0px 0px 6px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B65963649-3774-4e47-b6f4-7afa6d67a7cd%7D_provide-clarity.jpg"
+                              alt="Provide Clarity" />
+                </mj-column>
+                <mj-column width="90%" padding="10px 10px 0px 10px">
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Product Name
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column padding="0px" width="48%">
+                    <mj-button mj-class="button__primary color__forest-green--bg color__white"
+                               css-class="button-full"
+                               width="100%"
+                               padding="0px"
+                               href="#">
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="0px" width="4%">
+                    <mj-spacer height="10px" />
+                </mj-column>
+                <mj-column padding="0px" width="48%">
+                    <mj-button mj-class="button__primary color__forest-green--bg color__white"
+                               css-class="button-full"
+                               width="100%"
+                               padding="0px"
+                               href="#">
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="10px 0px">
+            <mj-section mj-class="color__faro-blue--bg" padding="10px">
+                <mj-column width="8%" padding="0px">
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px 0px 0px 0px"
+                              align="center"
+                              src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/trend-analysis.jpg"
+                              alt="Create Trend Analysis" />
+                </mj-column>
+                <mj-column width="2%" padding="0px">
+                    <mj-spacer height="1px" />
+                </mj-column>
+                <mj-column width="90%" padding="0px 12px 10px 12px">
+                    <mj-text mj-class="text__headline-secondary color__white">
+                        Secondary Headline
+                    </mj-text>
+
+                    <mj-divider mj-class="color__white--border"
+                                padding="0px 0px 20px 0px"
+                                border-width="2px" />
+
+                    <mj-text mj-class="text__normal color__white">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__white">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-spacer height="10px" />
+
+                    <mj-raw>
+                        <tr>
+                            <td>
+                                <table width="auto"
+                                       border="0"
+                                       cellpadding="0"
+                                       cellspacing="0"
+                                       align="right"
+                                       role="presentation"
+                                       style="border-collapse: separate; line-height: 100%; text-align: right;">
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px 15px; font-size: 18px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="color: #00416b; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none; font-size: 18px; line-height: 0px; word-break: break-word;">
+                                                Learn More
+                                            </a>
+                                        </td>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 0px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img width="48px"
+                                                     height="32px"
+                                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7Bca2cf38a-202d-4cbf-864f-984ceb7a6806%7D_faro-blue_x_white.jpg"
+                                                     alt="Chevron" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </mj-raw>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="0px 0px 10px 0px">
+            <mj-section mj-class="color__faro-blue--bg" padding="0px">
+                <mj-column mj-class="color__faro-blue--bg" width="10%" padding="5px 0px" vertical-align="top">
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px"
+                              align="center"
+                              src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reduce-cost.jpg"
+                              alt="Reduce Cost" />
+                </mj-column>
+                <mj-column mj-class="color__white--bg" width="90%" padding="5px 20px 0px 20px">
+                    <mj-text mj-class="text__headline-secondary color__faro-blue">
+                        Secondary Headline
+                    </mj-text>
+
+                    <mj-divider mj-class="color__faro-blue--border"
+                                padding="0px 0px 20px 0px"
+                                border-width="2px" />
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-spacer height="10px" />
+
+                    <mj-raw>
+                        <tr>
+                            <td>
+                                <table width="auto"
+                                       border="0"
+                                       cellpadding="0"
+                                       cellspacing="0"
+                                       align="right"
+                                       role="presentation"
+                                       style="border-collapse: separate; line-height: 100%; text-align: right;">
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px 15px; font-size: 18px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="color: #ffffff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none; font-size: 18px; line-height: 0px; word-break: break-word;">
+                                                Learn More
+                                            </a>
+                                        </td>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 0px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img width="48px"
+                                                     height="32px"
+                                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7B2f401dba-c3cc-45c3-afe7-6fc98960038b%7D_white_x_forest-green.jpg"
+                                                     alt="Chevron" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </mj-raw>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper padding="0px 0px 10px 0px">
+            <mj-section mj-class="color__faro-blue--bg" padding="0px">
+                <mj-column mj-class="color__faro-blue--bg" width="10%" padding="5px 0px" vertical-align="top">
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px"
+                              align="center"
+                              src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/user-control.jpg"
+                              alt="User Control" />
+                </mj-column>
+                <mj-column mj-class="color__white--bg" width="90%" padding="5px 20px 0px 20px">
+                    <mj-text mj-class="text__headline-secondary color__faro-blue">
+                        Secondary Headline
+                    </mj-text>
+
+                    <mj-divider mj-class="color__faro-blue--border"
+                                padding="0px 0px 20px 0px"
+                                border-width="2px" />
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </mj-text>
+
+                    <mj-spacer height="10px" />
+
+                    <mj-raw>
+                        <tr>
+                            <td>
+                                <table width="auto"
+                                       border="0"
+                                       cellpadding="0"
+                                       cellspacing="0"
+                                       align="right"
+                                       role="presentation"
+                                       style="border-collapse: separate; line-height: 100%; text-align: right;">
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px 15px; font-size: 18px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="color: #ffffff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none; font-size: 18px; line-height: 0px; word-break: break-word;">
+                                                Learn More
+                                            </a>
+                                        </td>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 0px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img width="48px"
+                                                     height="32px"
+                                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7B2f401dba-c3cc-45c3-afe7-6fc98960038b%7D_white_x_forest-green.jpg"
+                                                     alt="Chevron" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </mj-raw>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <!--
+        ***
+        *** START: Social Links Footer
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <mj-social icon-size="35px"
+                               mode="horizontal">
+                        <mj-social-element padding="0px"
+                                           name="facebook"
+                                           href="https://www.facebook.com/FAROTechnologies"
+                                           background-color="#ffffff"
+                                           src="https://img.en25.com/eloquaimages/clients/Faro/%7Bc3f3e238-704f-42f9-81cd-593cbe544f9d%7D_fb_round.png"
+                                           alt="Facebook">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="twitter"
+                                           href="https://twitter.com/faro_hq"
+                                           background-color="#ffffff"
+                                           src="https://img.en25.com/eloquaimages/clients/Faro/%7B72de1589-3d0d-421e-83bf-7355a61f0e66%7D_tw_round.png"
+                                           alt="Twitter">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="linkedin"
+                                           href="https://www.linkedin.com/company/faro-technologies"
+                                           background-color="#ffffff"
+                                           src="https://img.en25.com/eloquaimages/clients/Faro/%7Bffba39d5-f886-4700-a096-2b441d5edbb5%7D_ln_round.png"
+                                           alt="LinkedIn">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="instagram"
+                                           href="https://www.instagram.com/farotechnologies/"
+                                           background-color="#ffffff"
+                                           src="https://img.en25.com/eloquaimages/clients/Faro/%7B539d5a7a-762b-4971-aeb4-13fd2a05cf38%7D_ig_round.png"
+                                           alt="Instagram">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="feed"
+                                           href="https://insights.faro.com/"
+                                           background-color="#ffffff"
+                                           src="https://img.en25.com/EloquaImages/clients/Faro/%7B46836e15-a1c8-473b-9bd1-027f3eea0a96%7D_feed_round.png"
+                                           alt="Feed/RSS">
+                        </mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Social Links Footer
+        ***
+        -->
+    </mj-body>
+</mjml>

@@ -1,0 +1,45 @@
+
+        <!--
+        ***
+        *** START: Content (List, Two-Column, Aligned)
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <!-- START: Row -->
+            <mj-section padding="0px">
+                <mj-column width="50%" padding="0px 20px">
+                    <mj-text mj-class="text__normal color__anthracite-gray"
+                             padding="0px 0px 0px 20px">
+                        <!-- *** START: Basic List Content *** -->
+                        <div class="list">
+                            <ul>
+                                <li>Text goes here.</li>
+                            </ul>
+                        </div>
+                        <!-- *** END: Basic List Content *** -->
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" padding="0px 20px">
+                    <mj-text mj-class="text__normal color__anthracite-gray"
+                             padding="0px 0px 0px 20px">
+                        <!-- *** START: Basic List Content *** -->
+                        <div class="list">
+                            <ul>
+                                <li>Text goes here.</li>
+                            </ul>
+                        </div>
+                        <!-- *** END: Basic List Content *** -->
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- END: Row -->
+
+            <!-- ... -->
+
+            <!-- Paste in additional Rows from the START:/END: Row block above to add more aligned list items. -->
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Content (List, Two-Column, Aligned)
+        ***
+        -->

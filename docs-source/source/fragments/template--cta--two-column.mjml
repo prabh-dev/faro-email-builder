@@ -1,0 +1,68 @@
+
+        <!--
+        ***
+        *** START: Top Image (Two Column)
+        ***
+        -->
+        <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
+                    padding="0px"
+                    background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B81a00079-a1d4-4284-9b09-ddfbd4e9d649%7D_cta-triangles-grey.jpg"
+                    background-size="680px"
+                    background-repeat="no-repeat">
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="20px" padding="0px">
+                    <mj-text font-size="1px" line-height="1px" padding="0px">
+                        <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="20px" height="1px" style="width: 20px; height: 1px;" />
+                    </mj-text>
+                </mj-column>
+                <mj-column width="85px" padding="0px">
+                    <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
+                                css-class="divider-left" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="55%" padding="10px 0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__cta-primary color__faro-blue"
+                             padding-right="0px">
+                        Dive Deeper Into Our Solutions
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+
+                    <!-- *** START: Sub-Headline Text *** -->
+                    <mj-text mj-class="text__cta-secondary color__metal-gray"
+                             padding-right="0px">
+                        Subheadline Here
+                    </mj-text>
+                    <!-- *** END: Sub-Headline Text *** -->
+                </mj-column>
+                <mj-column width="45%" padding="10px 0px">
+                    <!-- *** START: Image Adjacent to Headline Text *** -->
+                    <mj-image padding="0px 20px"
+                              fluid-on-mobile="true"
+                              href="#"
+                              src="http://placeimg.com/640/360/any"
+                              alt="Hero Image" />
+                    <!-- *** END: Image Adjacent to Headline Text *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Top Image (Two Column)
+        ***
+        -->

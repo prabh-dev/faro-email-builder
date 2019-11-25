@@ -1,0 +1,112 @@
+
+        <!--
+        ***
+        *** START: Special (Call to Action with Icon, Two-Tone)
+        ***
+        -->
+        <mj-wrapper padding="0px 0px 10px 0px">
+            <mj-section mj-class="color__faro-blue--bg" padding="0px">
+                <mj-column mj-class="color__faro-blue--bg" width="10%" padding="5px 0px" vertical-align="top">
+                    <!-- *** START: Icon Image *** -->
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px"
+                              align="center"
+                              src="https://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reduce-cost.jpg"
+                              alt="Reduce Cost" />
+                    <!-- *** END: Icon Image *** -->
+                </mj-column>
+                <mj-column mj-class="color__white--bg" width="90%" padding="5px 20px 0px 20px">
+                    <!-- *** START: Basic Headline *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue">
+                        Headline
+                    </mj-text>
+                    <!-- *** END: Basic Headline *** -->
+
+                    <mj-divider mj-class="color__faro-blue--border"
+                                padding="0px 0px 20px 0px"
+                                border-width="2px" />
+
+                    <!-- *** START: Basic Paragraph Content *** -->
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Text goes here.
+                    </mj-text>
+                    <!-- *** END: Basic Paragraph Content *** -->
+
+                    <mj-spacer height="10px" />
+
+                    <!--
+                    ***
+                    *** START: Learn More button with Chevron (White on Color)
+                    ***
+                    -->
+                    <mj-raw>
+                        <tr>
+                            <td>
+                                <table width="auto"
+                                       border="0"
+                                       cellpadding="0"
+                                       cellspacing="0"
+                                       align="right"
+                                       role="presentation"
+                                       style="border-collapse: separate; line-height: 100%; text-align: right;">
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px 15px; font-size: 18px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="color: #ffffff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-decoration: none; font-size: 18px; line-height: 0px; word-break: break-word;">
+                                                Learn More
+                                            </a>
+                                        </td>
+                                        <td align="left"
+                                            valign="middle"
+                                            style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 0px; line-height: 0px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img width="48px"
+                                                     height="32px"
+                                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7B689ce5b5-3f5f-4f48-ae87-256f47e1de18%7D_white_x_zenith-blue.jpg"
+                                                     alt="Chevron" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            valign="middle"
+                                            colspan="2"
+                                            style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
+                                            <a href="#"
+                                               style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
+                                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </mj-raw>
+                    <!--
+                    ***
+                    *** END: Learn More button with Chevron (White on Color)
+                    ***
+                    -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Special (Call to Action with Icon, Two-Tone)
+        ***
+        -->

@@ -1,0 +1,28 @@
+
+        <!--
+        ***
+        *** START: Content (One Column Text)
+        ***
+        -->
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Inline Headline *** -->
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Headline
+                    </mj-text>
+                    <!-- *** END: Inline Headline *** -->
+
+                    <!-- *** START: Basic Paragraph Content *** -->
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Text goes here.
+                    </mj-text>
+                    <!-- *** END: Basic Paragraph Content *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Content (One Column Text)
+        ***
+        -->

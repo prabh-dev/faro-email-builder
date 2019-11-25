@@ -1,0 +1,60 @@
+
+        <!--
+        ***
+        *** START: Special (Call to Action with Background)
+        ***
+        -->
+        <mj-wrapper padding="15px 0px" mj-class="block__grey--faded">
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px">
+                    <!-- *** START: Icon Image *** -->
+                    <mj-image width="52px"
+                              height="36px"
+                              padding="0px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg"
+                              alt="Capture in 3D" />
+                    <!-- *** END: Icon Image *** -->
+                </mj-column>
+                <mj-column width="90%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text padding="6px 20px 20px 20px"
+                             mj-class="text__headline-secondary color__faro-blue">
+                        Secondary Headline
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column padding="0px">
+                    <!-- *** START: Basic Paragraph Content *** -->
+                    <mj-text mj-class="text__normal color__anthracite-gray"
+                             padding-left="20px"
+                             padding-right="20px">
+                        Text goes here.
+                    </mj-text>
+                    <!-- *** END: Basic Paragraph Content *** -->
+
+                    <!-- *** START: Basic Button *** -->
+                    <mj-button mj-class="button__primary color__zenith-blue--bg color__white"
+                               padding="0px 20px"
+                               href="#"
+                               target="_blank">
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Call Out Button
+                            <!-- *** END: Button Text *** -->
+                        </span>
+                    </mj-button>
+                    <!-- *** END: Basic Button *** -->
+
+                    <mj-spacer height="5px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Special (Call to Action with Background)
+        ***
+        -->

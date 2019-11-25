@@ -1,0 +1,41 @@
+
+        <!--
+        ***
+        *** START: Centered Headline and Subheadline with Divider Line
+        ***
+        -->
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             align="center">
+                        Secondary Headline
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="center">
+                <mj-column width="95px" padding="0px">
+                    <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                                width="95px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Subheadline Text *** -->
+                    <mj-text mj-class="text__headline-sub"
+                             align="center">
+                        Subheadline Text
+                    </mj-text>
+                    <!-- *** END: Subheadline Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Centered Headline and Subheadline with Divider Line
+        ***
+        -->

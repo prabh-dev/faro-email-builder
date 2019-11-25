@@ -1,0 +1,33 @@
+
+        <!--
+        ***
+        *** START: Headline (with Icon)
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px">
+                    <!-- *** START: Headline Icon *** -->
+                    <mj-image width="52px"
+                              height="36px"
+                              padding="0px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg"
+                              alt="Capture in 3D" />
+                    <!-- *** END: Headline Icon *** -->
+                </mj-column>
+                <mj-column width="90%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text padding="6px 20px 20px 20px"
+                             mj-class="text__headline-secondary color__faro-blue">
+                        Headline Text
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Headline (with Icon)
+        ***
+        -->

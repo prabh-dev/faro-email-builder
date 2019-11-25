@@ -1,0 +1,21 @@
+
+        <!--
+        ***
+        *** START: Logo
+        ***
+        -->
+        <mj-wrapper padding="0px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="20px 0px">
+                    <mj-image width="140px"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B8da5cab2-67d6-486c-a433-b38aa77c18e9%7D_logo-blue.jpg"
+                              alt="FARO Logo"
+                              href="https://www.faro.com/" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Logo
+        ***
+        -->

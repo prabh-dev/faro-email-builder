@@ -1,0 +1,32 @@
+
+        <!--
+        ***
+        *** START: Headline (Left-justified)
+        ***
+        -->
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             align="left">
+                        Headline Text
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="95px" padding="0px">
+                    <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                                css-class="divider-left"
+                                width="95px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Headline (Left-justified)
+        ***
+        -->

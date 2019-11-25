@@ -1,0 +1,33 @@
+
+        <!--
+        ***
+        *** START: Headline (with Icon, Inverted)
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column mj-class="color__faro-blue--bg" width="10%" padding="0px 0px 0px 20px">
+                    <!-- *** START: Headline Icon *** -->
+                    <mj-image width="32px"
+                              height="48px"
+                              padding="0px"
+                              align="left"
+                              src="https://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reliable.jpg"
+                              alt="Reliable" />
+                    <!-- *** END: Headline Icon *** -->
+                </mj-column>
+                <mj-column mj-class="color__white--bg" width="90%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             padding="12px 20px 5px 20px">
+                        Headline Text
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Headline (with Icon, Inverted)
+        ***
+        -->

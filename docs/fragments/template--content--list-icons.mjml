@@ -1,0 +1,44 @@
+
+        <!--
+        ***
+        *** START: Content (List with Icons)
+        ***
+        -->
+        <mj-wrapper padding="0px 10px">
+            <!-- START: Row -->
+            <mj-section padding="0px">
+                <mj-column width="10%" padding="0px" vertical-align="top">
+                    <!-- *** START: Icon Image *** -->
+                    <mj-image width="48px"
+                              padding="0px 0px 0px 6px"
+                              align="left"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B9b1c80c8-96ab-4674-a3be-aaf39a256d51%7D_advance-performance.jpg"
+                              alt="Advance Performance" />
+                    <!-- *** END: Icon Image *** -->
+                </mj-column>
+                <mj-column width="90%"
+                           padding="10px 10px 0px 10px">
+                    <!-- *** START: Basic Headline *** -->
+                    <mj-text mj-class="text__normal-heading color__anthracite-gray">
+                        Headline
+                    </mj-text>
+                    <!-- *** END: Basic Headline *** -->
+
+                    <!-- *** START: Basic Paragraph Content *** -->
+                    <mj-text mj-class="text__normal color__anthracite-gray">
+                        Text goes here.
+                    </mj-text>
+                    <!-- *** START: Basic Paragraph Content *** -->
+                </mj-column>
+            </mj-section>
+            <!-- END: Row -->
+
+            <!-- ... -->
+
+            <!-- Paste in additional Rows from the START:/END: Row block above to add more aligned list items. -->
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Content (List with Icons)
+        ***
+        -->

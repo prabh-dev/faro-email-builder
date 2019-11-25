@@ -1,0 +1,25 @@
+
+        <!--
+        ***
+        *** START: Basic Image (Full-width)
+        ***
+        -->
+        <mj-wrapper padding="10px 20px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Image Content *** -->
+                    <mj-image mj-class="image__bordered color__zenith-blue--border"
+                              padding="5px 0px 20px 0px"
+                              src="http://placeimg.com/680/360/any"
+                              href="http://faro.com/"
+                              align="center"
+                              alt="Full-width Image" />
+                    <!-- *** END: Image Content *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Basic Image (Full-width)
+        ***
+        -->

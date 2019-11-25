@@ -1,0 +1,34 @@
+
+        <!--
+        ***
+        *** START: Button (Single, Centered)
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="10px" />
+                </mj-column>
+                <mj-column padding="0px" width="48%">
+                    <mj-button mj-class="button__primary color__zenith-blue--bg color__white"
+                               css-class="button-full"
+                               width="100%"
+                               padding="0px"
+                               href="#">
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Button Text
+                            <!-- *** END: Button Text *** -->
+                        </span>
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="10px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Button (Single, Centered)
+        ***
+        -->
